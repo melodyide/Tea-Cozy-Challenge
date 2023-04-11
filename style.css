@@ -1,0 +1,138 @@
+* {
+    background-color: rgb(0, 0, 0);
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    padding-left: 10px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: inline;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+#logo {
+    height: 50px;
+    text-align: left;
+    float: left;
+    background-color: transparent;
+}
+
+nav {
+    text-align: right;
+    background-color: none;
+    margin-right: 20px;
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+nav a {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+
+main img {
+    width: 300px;
+    height: 200px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.mission {
+    background-image: url('../images/img-mission-background.webp');
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+}
+
+#mission {
+    position: relative;
+    top: 300px;
+    padding: 5px;
+}
+
+.TotM {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.images1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.images2 {
+    width: 680px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin: 0 auto;
+}
+
+#bg-img {
+    background-image: url('../images/img-locations-background.webp');
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+#titre {
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.loc {
+    width: 300px;
+    margin: 40px 15px;
+    background-color: black;
+    line-height: 60px;
+}
+
+#footer {
+    height: 200px;
+    flex: 1;
+    line-height: 40px;
+}
+
+#copyright {
+    float: left;
+    position: relative;
+    margin-left: 20px;
+}
